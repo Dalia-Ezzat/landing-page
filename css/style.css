@@ -82,7 +82,32 @@ a:hover{
     
 }
 /* ==========end-btn-up=============== */
+
+ /* ----------Handle------------ */
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:white;
+
+}
  
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(131,58,180,1);
+  cursor: pointer;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(89, 21, 134);
+}
+ /* ----------Handle------------ */
+
 /* =========start-navbar======= */
 
   .navbar {
@@ -127,7 +152,7 @@ a:hover{
 .slider {
   background-image:url(../img/bussiness-people-working-team-office.jpg);
   height: 100vh;
-  background-position:center center;
+  background-position:center top;
   background-size:cover;
   background-color: rgba(0, 0, 0, 0.69);
 
