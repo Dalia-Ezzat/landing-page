@@ -12,13 +12,11 @@
   box-sizing: border-box;
 }
 
-body{
+body, html{
   overflow-x: hidden !important;
-  scroll-padding-top:3.5em!important;
+  scroll-padding-top:4em!important;
 }
-/* body::-webkit-scrollbar {
-  display: none;
-} */
+
 a{
     text-decoration: none;
     color:white;
